@@ -1,0 +1,25 @@
+{
+  "name": "src_components_analyze",
+  "version": "1.0.0",
+  "description": "用于分析一个工程中src/components 目录下的所有组件在工程内的引用情况，最后输出一个md文档",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-nc-pro/src_components_analyze.git"
+  },
+  "keywords": [
+    "src",
+    "components",
+    "analyze",
+    "components-analyze"
+  ],
+  "author": "宁川",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-nc-pro/src_components_analyze/issues"
+  },
+  "homepage": "https://github.com/web-nc-pro/src_components_analyze#readme"
+}
