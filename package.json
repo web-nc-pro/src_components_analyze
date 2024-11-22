@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "用于分析一个工程中src/components 目录下的所有组件在工程内的引用情况，最后输出一个md文档",
   "main": "index.js",
+  "bin": {
+    "components_analyze": "lib/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +24,16 @@
   "bugs": {
     "url": "https://github.com/web-nc-pro/src_components_analyze/issues"
   },
-  "homepage": "https://github.com/web-nc-pro/src_components_analyze#readme"
+  "homepage": "https://github.com/web-nc-pro/src_components_analyze#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "lodash": "^4.17.21",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3"
+  }
 }
